@@ -1,0 +1,86 @@
+*
+{
+    font-family: 'Microsoft Yahei';
+
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+}
+.ditem
+{
+    font-size: 14px;
+
+    float: left;
+
+    width: 220px;
+    height: 352px;
+    margin: 0 5px;
+    margin-top: 10px;
+
+    border: solid 1px #ccc;
+}
+#pros
+{
+    overflow: hidden;
+
+    width: 750px;
+
+    /*border: 1px solid black;*/
+}
+.dprice
+{
+    font-size: 20px;
+    font-weight: bold;
+
+    width: 100%;
+    height: 30px;
+
+    text-align: center;
+
+    color: #f00;
+}
+.dbtn > a
+{
+    font-size: 20px;
+    line-height: 36px;
+
+    display: block;
+
+    width: 70%;
+    height: 36px;
+    margin: 10px auto;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 12px;
+    background-color: #ff6a00;
+}
+#dcar
+{
+    position: absolute;
+    top: 300px;
+    right: 0;
+
+    width: 72px;
+    height: 63px;
+
+    background-image: url(../images/car.jpg);
+}
+#dprocount
+{
+    font-size: 12px;
+    line-height: 20px;
+
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+
+    color: #fff;
+    border-radius: 100%;
+    background-color: #f00;
+}
